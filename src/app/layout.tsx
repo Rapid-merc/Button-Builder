@@ -10,6 +10,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Button Library",
   description: "Build and preview buttons with ease",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
