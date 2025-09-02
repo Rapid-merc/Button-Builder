@@ -8,7 +8,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Button Library",
+  title: "Button Builder",
   description: "Build and preview buttons with ease",
   icons: {
     icon: '/favicon.png',

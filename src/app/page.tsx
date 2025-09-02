@@ -8,16 +8,17 @@ export default function LandingPage() {
     <div className="flex min-h-screen flex-col bg-white">
       {/* Top Nav with background image */}
       <header
+      
         className="sticky top-0 z-40 w-full border-b bg-cover bg-center px-6 py-3 flex items-center justify-between"
         style={{ backgroundImage: "url('/footer.jpg')" }} // replace with your image
       >
         <div className="flex items-center gap-2 font-semibold text-slate-800">
           <Sparkles className="h-5 w-5" />
-          Button Library
+          Button Builder
         </div>
         <nav className="flex items-center gap-6 text-sm font-medium text-slate-700">
           <Link href="#">Documentation</Link>
-          <Link href="#">Examples</Link>
+          <Link href="/examples">Examples</Link>
           <Link href="/button-builder">Playground</Link>
           <button className="rounded-lg bg-white/80 px-4 py-1.5 shadow hover:bg-white">
             Sign In
@@ -33,11 +34,9 @@ export default function LandingPage() {
           className="overflow-hidden rounded-2xl bg-cover bg-center p-12 text-center text-white shadow-lg"
           style={{ backgroundImage: "url('/background.jpg')" }} // replace with your image
         >
-          <h1 className="text-4xl font-bold sm:text-5xl">Button Library</h1>
+          <h1 className="text-4xl font-bold sm:text-5xl">Button Builder</h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-100">
-            A comprehensive collection of customizable button styles for your web
-            projects. Explore a variety of designs, from classic to modern, and
-            easily integrate them into your applications.
+            Stop searching for the right button — build it yourself! Adjust styles, colors, and interactions in real-time, and generate code ready to drop into your app.
           </p>
           <Link
             href="/button-builder"
@@ -75,7 +74,7 @@ export default function LandingPage() {
 
           {/* Copyright */}
           <div className="mt-4 text-center text-xs text-slate-600">
-            © 2025 Button Library. All rights reserved.
+            Life is worth living ♥
           </div>
         </div>
       </footer>
